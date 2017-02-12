@@ -93,7 +93,6 @@
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.txtInitStack);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MinimumSize = new System.Drawing.Size(240, 240);
             this.Name = "frmInitState";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;

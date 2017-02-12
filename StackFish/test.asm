@@ -11,7 +11,6 @@ padovan:
 	subl	$2, %eax
 	subl	$4, %esp
 	pushl	%eax
-	; testcomment
 	call	padovan
 	movl	%eax, 4(%esp)
 	subl	$1, (%esp)
