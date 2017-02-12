@@ -75,6 +75,9 @@ namespace StackFish
                     }
                     catch (Exception ex)
                     {
+                        // The retry functionality assumes line index was NOT changed
+                        // TODO restore index because this isn't always true
+
                         DialogResult dr = MessageBox.Show(ex.Message, "Error", MessageBoxButtons.AbortRetryIgnore,
                             MessageBoxIcon.Error, MessageBoxDefaultButton.Button3);
                         if (dr == DialogResult.Abort)
