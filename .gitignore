@@ -1,3 +1,6 @@
 StackFish/bin/
 StackFish/obj/
 .vs/
+
+# TODO
+!StackFish/bin/Release/StackFish.exe
