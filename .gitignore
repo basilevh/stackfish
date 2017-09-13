@@ -1,3 +1,6 @@
-StackFish/bin/
-StackFish/obj/
+bin/
+obj/
 .vs/
+
+# Include
+!bin/Release/StackFish.exe
